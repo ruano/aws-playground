@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21AA1563-6C6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSLambda", "src\AWSLambda\AWSLambda.csproj", "{217F1A29-81E8-D438-568B-3045972184C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSServerless", "src\AWSServerless\AWSServerless.csproj", "{4ED5B042-D644-6D26-53A5-FBC2C12D9369}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +24,17 @@ Global
 		{217F1A29-81E8-D438-568B-3045972184C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{217F1A29-81E8-D438-568B-3045972184C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{217F1A29-81E8-D438-568B-3045972184C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED5B042-D644-6D26-53A5-FBC2C12D9369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED5B042-D644-6D26-53A5-FBC2C12D9369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED5B042-D644-6D26-53A5-FBC2C12D9369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED5B042-D644-6D26-53A5-FBC2C12D9369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{217F1A29-81E8-D438-568B-3045972184C4} = {21AA1563-6C66-4C1D-8D3B-D3E1E00241A7}
+		{4ED5B042-D644-6D26-53A5-FBC2C12D9369} = {21AA1563-6C66-4C1D-8D3B-D3E1E00241A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00AF63A6-C9AA-4AC3-9D92-4A796AD4A311}
