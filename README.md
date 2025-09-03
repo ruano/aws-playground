@@ -17,6 +17,10 @@ Obs: credentials will be saved on %UserProfile%\\.aws path
 
 Obs: The extension will automatically get your cretentials info you've configured on AWS CLI step
 
+- Install dotnet tools for AWS envionment:
+
+``dotnet tool install -g Amazon.Lambda.Tools`` <br>
+
 # References
 
 https://catalog.us-east-1.prod.workshops.aws/workshops/c36ccd6e-9145-4e97-b1b5-1069d6d68ed0/en-US/lab1-lambda-s3
