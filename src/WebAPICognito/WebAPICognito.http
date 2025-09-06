@@ -1,0 +1,6 @@
+@WebAPICognito_HostAddress = http://localhost:5173
+
+GET {{WebAPICognito_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
